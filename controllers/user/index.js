@@ -136,8 +136,6 @@ router.route("/me").get(isAuthenticatedUser, User.getUserDetails);
  *                  properties:
  *                      name:
  *                          type: string
- *                      email:
- *                          type: string
  *          responses:
  *              200:
  *                  description: OK
@@ -150,7 +148,7 @@ router.route("/me/update").put(isAuthenticatedUser, User.updateProfile);
  *  /api/password/update:
  *      put:
  *          tags:
- *              - Profile
+ *              - Authentication
  *          security:
  *              - Bearer: []
  *          summary: Update Password After Login

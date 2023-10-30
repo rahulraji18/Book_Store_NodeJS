@@ -28,12 +28,12 @@ const {
  *                schema:
  *                  type: object
  *                  properties:
- *                      name:
+ *                      title:
  *                          type: string
  *                      price:
  *                          type: integer
  *                          format: int64
- *                      description:
+ *                      summary:
  *                          type: string
  *                      category:
  *                           type: string
@@ -144,9 +144,9 @@ router.route("/product/:id").get(getProductDetails);
  *                schema:
  *                  type: object
  *                  properties:
- *                      name:
+ *                      title:
  *                          type: string
- *                      description:
+ *                      summary:
  *                          type: string
  *                      price:
  *                          type: integer
@@ -159,9 +159,9 @@ router.route("/product/:id").get(getProductDetails);
  *                      schema:
  *                          type: object
  *                          properties:
- *                              name:
+ *                              title:
  *                                  type: string
- *                              description:
+ *                              summary:
  *                                  type: string
  *                              price:
  *                                  type: integer

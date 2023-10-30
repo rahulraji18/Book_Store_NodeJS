@@ -1,6 +1,6 @@
 # Book_Store_NodeJS
-Objective: Develop a RESTful API using Node.js for managing books.
 
+Objective: Develop a RESTful API using Node.js for managing books.
 
 # Start Project
 
@@ -24,35 +24,34 @@ Objective: Develop a RESTful API using Node.js for managing books.
 # Functionalities
 
 <!-- Authentication -->
+
 1.  Register
 2.  Login
-3.  Forgot password (send link in email)
-4.  Logout
+3.  Logout
 <!-- User -->
-5.  view profile
-6.  update profile
-7.  update password or change password
-8.  update role >> admin
-9.  view all users >> admin
-10. view single users >> admin
-11. delete user >>admin
+4.  view profile
+5.  update profile
+6.  update password or change password
+7.  update role >> admin
+8.  view all users >> admin
+9.  view single users >> admin
+10. delete user >>admin
 <!-- Product -->
-12. add product
-13. all products
-14. product details
-15. update product
-16. delete product
+11. add product
+12. all products
+13. product details
+14. update product
+15. delete product
 
 ---
 
 # Api Details
 
-Api documentation url => 
+Api documentation url =>
 
 localhost:3000/api-docs
 
 browse the url => localhost:3000/api-docs
 then we can view the below screen, it was the comple api documentation for this project.
 
-![Alt text](image-1.png)
-
+![Alt text](image-2.png)
